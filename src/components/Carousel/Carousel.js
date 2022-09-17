@@ -9,13 +9,9 @@ import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import Card from "components/Card/Card.js";
 
-import image1 from "assets/img/Carousel/cr1.png";
-import image2 from "assets/img/Carousel/cr2.png";
-import image3 from "assets/img/Carousel/cr3.png";
-
-
-
-//                 <Health className="slick-icons" style={{ fontSize: 50 }}/>  
+import image1 from "assets/img/Carousel/cr1.jpg";
+import image2 from "assets/img/Carousel/cr2.jpg";
+import image3 from "assets/img/Carousel/cr3.jpg";
 
 export default function SectionCarousel(){
   const settings = {
@@ -28,7 +24,7 @@ export default function SectionCarousel(){
   };
   return (
     <GridContainer>
-      <GridItem xs={12} sm={12} md={12}>
+      <GridItem xs={12} sm={12} md={12                                                                                                                                                                                                                                         }>
         <Card>
           <Carousel {...settings}>
             <div>
@@ -52,7 +48,15 @@ export default function SectionCarousel(){
                 alt="Second slide"
                 className="slick-image"
               />
-              <div className="slick-caption">
+   
+   
+   
+   
+   
+   
+   
+   
+             <div className="slick-caption">
               <h2>
                   Seguimiento Constante
                 </h2>

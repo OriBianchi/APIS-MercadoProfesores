@@ -59,7 +59,7 @@ export default function Header(props) {
         .classList.remove(classes[changeColorOnScroll.color]);
     }
   };
-  const { color, rightLinks, leftLinks, brand, fixed, absolute } = props;
+  const { color, rightLinks, leftLinks, fixed, absolute } = props;
   const appBarClasses = classNames({
     [classes.appBar]: true,
     [classes[color]]: color,
@@ -71,7 +71,7 @@ export default function Header(props) {
     <Grid>
       <Button className={classes.title} style={{textdecoration:"none", color: "white"}}>
       <Health className="slick-icons" style={{ fontSize: 30 }}/>
-        {brand}
+        {"DaleProfe"}
       </Button>
       </Grid>
     </Link>
